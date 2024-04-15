@@ -63,6 +63,11 @@
 // alert(b);
 
 
-var x = 10;
-var y = x++ + ++x - x + x++ - ++x + x;
-alert(y) 
+// var x = 10;
+// var y = x++ + ++x - x + x++ - ++x + x;
+// alert(y)
+
+
+// propmt
+var a = prompt ("Enter your age", "Your age is");
+alert(a)
