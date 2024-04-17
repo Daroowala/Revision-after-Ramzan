@@ -135,3 +135,6 @@
 // }
 
 
+// Array
+var students = ["ghous", "basit", "ali"]
+alert("Welcome " +students[1])
