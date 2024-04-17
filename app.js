@@ -156,9 +156,16 @@
 
 
 // Remove and add values from start in Array
+// var names = ["ghous", "basit", "ali", 123, "&"];
+// names.shift()
+// names.shift()
+// names.unshift("Tahir", "Noman")
+// console.log(names)
+
+
+// Remove and add values from center[index no] called splice in Array
 var names = ["ghous", "basit", "ali", 123, "&"];
-names.shift()
-names.shift()
-names.unshift("Tahir", "Noman")
+names.splice(1,2,"Farhan", "Baber")
 console.log(names)
+
 
