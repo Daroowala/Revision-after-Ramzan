@@ -69,5 +69,6 @@
 
 
 // propmt
-var a = prompt ("Enter your age", "Your age is");
-alert(a)
+// var a = +prompt ("Enter your value", "Your value is");
+// var b = a + 10;
+// console.log("The output is", + b)
