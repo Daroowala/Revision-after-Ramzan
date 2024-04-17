@@ -163,9 +163,14 @@
 // console.log(names)
 
 
-// Remove and add values from center[index no] called splice in Array
+// // Remove and add values from center[index no] called splice in Array
+// var names = ["ghous", "basit", "ali", 123, "&"];
+// names.splice(1,2,"Farhan", "Baber")
+// console.log(names)
+
+
+// Copy values called slice in Array
 var names = ["ghous", "basit", "ali", 123, "&"];
-names.splice(1,2,"Farhan", "Baber")
+var copyNames = names.slice(1,4)
 console.log(names)
-
-
+console.log(copyNames)
