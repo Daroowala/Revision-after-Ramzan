@@ -114,10 +114,24 @@
 // }
 
 
-var a = "5";
-if(a === 5){
-    alert("True");
-}
-else{
-    alert("False");
-}
+// var a = "5";
+// if(a === 5){
+//     alert("True");
+// }
+// else{
+//     alert("False");
+// }
+
+
+// var x = 5;
+// var y = 10;
+// var a = 30;
+// var b = 15;
+// if(x+y === a-b){
+//     alert("correct")
+// }
+// else{
+//     alert("Not correct")
+// }
+
+
