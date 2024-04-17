@@ -146,11 +146,19 @@
 // names[4] = "Ghous"
 // console.log(names)
 
-// Remove and add value end in Array
+// Remove and add values from end in Array
+// var names = ["ghous", "basit", "ali", 123, "&"];
+// names.pop()
+// names.pop()
+// names.pop()
+// names.push("Bilal", "Zain")
+// console.log(names)
+
+
+// Remove and add values from start in Array
 var names = ["ghous", "basit", "ali", 123, "&"];
-names.pop()
-names.pop()
-names.pop()
-names.push("Bilal", "Zain")
+names.shift()
+names.shift()
+names.unshift("Tahir", "Noman")
 console.log(names)
 
