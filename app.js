@@ -72,3 +72,14 @@
 // var a = +prompt ("Enter your value", "Your value is");
 // var b = a + 10;
 // console.log("The output is", + b)
+
+
+// var a = prompt("Enter your age", "Your age is")
+// alert(a);
+
+
+var x = "Enter your value";
+var y = "Your value"
+var a = +prompt (x,y);
+var b = a + 10;
+document.write("The output is" + " " + b)
