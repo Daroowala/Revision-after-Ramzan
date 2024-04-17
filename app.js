@@ -78,8 +78,46 @@
 // alert(a);
 
 
-var x = "Enter your value";
-var y = "Your value"
-var a = +prompt (x,y);
-var b = a + 10;
-document.write("The output is" + " " + b)
+// var x = "Enter your value";
+// var y = "Your value"
+// var a = +prompt (x,y);
+// var b = a + 10;
+// document.write("The output is" + " " + b)
+
+
+// if, else, elseif && ||
+// var age = +prompt("Enter your age");
+// if(age == 14){
+//     alert("Your age is equale")
+// }
+// else if(age < 14){
+//     alert("You use this Ride")
+// }
+// else if(age > 50){
+//     alert("You are old citizen thats why you can Ride")
+// }
+// else{
+//     alert("Your age is over 14")
+// }
+
+
+// var age = +prompt("Enter Your Age");
+// var gender = prompt("Your Gender");
+// if(age > 18 && gender == "male"){
+//     alert("You are allowed to Ride")
+// }
+// else if(age < 18 || gender == "female" || gender == "male"){
+//     alert("You are on Chance")
+// }
+// else{
+//     alert("You Are Nooooootttt Allowed")
+// }
+
+
+var a = "5";
+if(a === 5){
+    alert("True");
+}
+else{
+    alert("False");
+}
