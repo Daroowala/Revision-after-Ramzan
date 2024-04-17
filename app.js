@@ -136,5 +136,21 @@
 
 
 // Array
-var students = ["ghous", "basit", "ali"]
-alert("Welcome " +students[1])
+// var students = ["ghous", "basit", "ali", 123, "&"]
+// alert("Welcome " +students[4])
+
+// add value in Array
+// var names = [];
+// names[0] = "Rehan";
+// names[1] = "Ali";
+// names[4] = "Ghous"
+// console.log(names)
+
+// Remove and add value end in Array
+var names = ["ghous", "basit", "ali", 123, "&"];
+names.pop()
+names.pop()
+names.pop()
+names.push("Bilal", "Zain")
+console.log(names)
+
