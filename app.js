@@ -201,6 +201,17 @@
 // }
 
 // Loop
-var a;
-for(a = 0; a <= 10; a++){
-document.write(a)} 
+// var a;
+// for(a = 1; a <= 10;  a++){
+// document.write("Hello World!" + "<br>")} 
+
+// var a;
+// for(a = 10; a >= 0; a--){
+// document.write(a + "<br>")} 
+
+for(i = 1; i <= 10; i++){
+    document.write("2" + "x" + i + "=" + 2*i + "<br>" + "<br>")
+}
+for(f = 1; f <=10; f++){
+    document.write("3" + "x" + f + "=" + 3*f + "<br>" + "<br>")
+}
