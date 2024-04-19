@@ -209,9 +209,23 @@
 // for(a = 10; a >= 0; a--){
 // document.write(a + "<br>")} 
 
-for(i = 1; i <= 10; i++){
-    document.write("2" + "x" + i + "=" + 2*i + "<br>" + "<br>")
-}
-for(f = 1; f <=10; f++){
-    document.write("3" + "x" + f + "=" + 3*f + "<br>" + "<br>")
+// for(i = 1; i <= 10; i++){
+//     document.write("2" + "x" + i + "=" + 2*i + "<br>" + "<br>")
+// }
+// for(f = 1; f <=10; f++){
+//     document.write("3" + "x" + f + "=" + 3*f + "<br>" + "<br>")
+// }
+
+// var names = ["ali","basit","farhan","qasim"];
+// for(var i = 0; i < names.length; i++){
+//     document.write(names[i] + "<br>"); 
+// }
+ 
+var inp = prompt("Enter your city name");
+var cities = ["Lahore", "Fasilabad", "Quetta", "Karachi", "Islamabad"];
+for(var i = 0; i < cities.length; i++){
+    if(inp === cities[i]){
+        break;
+    }
+    alert(cities[i] + " Is the Beautyfull City")
 }
