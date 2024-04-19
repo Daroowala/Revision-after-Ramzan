@@ -170,7 +170,9 @@
 
 
 // Copy values called slice in Array
-var names = ["ghous", "basit", "ali", 123, "&"];
-var copyNames = names.slice(1,4)
-console.log(names)
-console.log(copyNames)
+// var names = ["ghous", "basit", "ali", 123, "&"];
+// var copyNames = names.slice(1,4)
+// console.log(names)
+// console.log(copyNames)
+
+
