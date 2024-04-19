@@ -232,16 +232,32 @@
 // }
 
 // Array mein cities ke names
-var cities = ["Lahore", "Islamabad", "Quetta", "Karachi", "Faisalabad"];
+// var cities = ["Lahore", "Islamabad", "Quetta", "Karachi", "Faisalabad"];
 
 // User se city ka input lena
-var userInput = prompt("Please enter a city name:");
+// var userInput = prompt("Please enter a city name:");
 
 // City ka input ko check karna
-if (cities.includes(userInput)) {
+// if (cities.includes(userInput)) {
     // Agar city mojood hai to alert display karna
-    alert(userInput + " is a beautiful city");
-} else {
+    // alert(userInput + " is a beautiful city");
+// } else {
     // Agar city mojood nahi hai to alert display karna
-    alert("Sorry, the city you entered is not in the list.");
-}
+    // alert("Sorry, the city you entered is not in the list.");
+// }
+
+
+// Nested loop
+// for(var i = 0; i < 5; i++){
+//     for(var j =0; j < 3; j++){
+//         document.write("Pakistan Zindabad" + "<br>" )
+//     }
+// }
+
+// var firstName = ["ali", "kamran", "zia"]
+// var lastName = ["khan", "malik",]
+// for(var i = 0; i < firstName.length; i++){
+//     for(var x = 0; x < lastName.length; x++){
+//         console.log(firstName[i] + " " + lastName[x])
+//     }
+// }
