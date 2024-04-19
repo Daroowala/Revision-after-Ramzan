@@ -200,4 +200,7 @@
 //   alert("hello");
 // }
 
-     
+// Loop
+var a;
+for(a = 0; a <= 10; a++){
+document.write(a)} 
