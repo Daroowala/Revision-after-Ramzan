@@ -221,11 +221,27 @@
 //     document.write(names[i] + "<br>"); 
 // }
  
-var inp = prompt("Enter your city name");
-var cities = ["Lahore", "Fasilabad", "Quetta", "Karachi", "Islamabad"];
-for(var i = 0; i < cities.length; i++){
-    if(inp === cities[i]){
-        break;
-    }
-    alert(cities[i] + " Is the Beautyfull City")
+// var inp = prompt("Enter your city name");
+// var cities = ["Lahore", "Fasilabad", "Quetta", "Karachi", "Islamabad"];
+// for(var i = 0; i < cities.length; i++){
+//     if(cities[i] === "Karachi"){
+//     break
+//     }
+    
+//     alert(cities[i] + " Is the Beautyfull City")
+// }
+
+// Array mein cities ke names
+var cities = ["Lahore", "Islamabad", "Quetta", "Karachi", "Faisalabad"];
+
+// User se city ka input lena
+var userInput = prompt("Please enter a city name:");
+
+// City ka input ko check karna
+if (cities.includes(userInput)) {
+    // Agar city mojood hai to alert display karna
+    alert(userInput + " is a beautiful city");
+} else {
+    // Agar city mojood nahi hai to alert display karna
+    alert("Sorry, the city you entered is not in the list.");
 }
