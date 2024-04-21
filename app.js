@@ -176,29 +176,29 @@
 // console.log(copyNames)
 
 
-//  var inp = prompt("find user by hobby");
-//  var users = [
-//    { name: "ali", hobbies: ["cricket", "painting", "gaming"] },
-//    {
-//      name: "ahmed",
-//      hobbies: ["football", "bedminton", "ludo", "hockey", "travelling"],
-//    },
-//    { name: "sahir", hobbies: ["cycling", "swimming", "foos ball"] },
-//  ];
-//  var flag = false;
-//  for (var i = 0; i < users.length; i++)
-//    for (j = 0; j < users[i].hobbies.length; j++) {
-//      if (inp === users[i].hobbies[j]) {
-//        flag2
-//    }
-//  }
-//  if (!flag) {
-//    alert("hobby not found");
-//  }
-// var i;
-// for (i = 0; i < 10; i++) {
-//   alert("hello");
-// }
+ var inp = prompt("find user by hobby");
+ var users = [
+   { name: "ali", hobbies: ["cricket", "painting", "gaming"] },
+   {
+     name: "ahmed",
+     hobbies: ["football", "bedminton", "ludo", "hockey", "travelling"],
+   },
+   { name: "sahir", hobbies: ["cycling", "swimming", "foos ball"] },
+ ];
+ var flag = false;
+ for (var i = 0; i < users.length; i++){
+   for (j = 0; j < users[i].hobbies.length; j++) {
+     if (inp === users[i].hobbies[j]) {
+       flag=true;
+       alert(users[i].name);
+       break;
+   }
+ }
+}
+ if (!flag) {
+   alert("hobby not found");
+ }
+
 
 // Loop
 // var a;
@@ -262,9 +262,9 @@
 //     }
 // }
 
-for (var i = 0; i <= 10; i++){
-    for (var j = 0; j < i; j++){
-        document.write("*")
-    }
-    document.write("<br>")
-}
+// for (var i = 0; i <= 10; i++){
+//     for (var j = 0; j < i; j++){
+//         document.write("*")
+//     }
+//     document.write("<br>")
+// }
