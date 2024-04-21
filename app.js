@@ -176,28 +176,28 @@
 // console.log(copyNames)
 
 
- var inp = prompt("find user by hobby");
- var users = [
-   { name: "ali", hobbies: ["cricket", "painting", "gaming"] },
-   {
-     name: "ahmed",
-     hobbies: ["football", "bedminton", "ludo", "hockey", "travelling"],
-   },
-   { name: "sahir", hobbies: ["cycling", "swimming", "foos ball"] },
- ];
- var flag = false;
- for (var i = 0; i < users.length; i++){
-   for (j = 0; j < users[i].hobbies.length; j++) {
-     if (inp === users[i].hobbies[j]) {
-       flag=true;
-       alert(users[i].name);
-       break;
-   }
- }
-}
- if (!flag) {
-   alert("hobby not found");
- }
+//  var inp = prompt("find user by hobby");
+//  var users = [
+//    { name: "ali", hobbies: ["cricket", "painting", "gaming"] },
+//    {
+//      name: "ahmed",
+//      hobbies: ["football", "bedminton", "ludo", "hockey", "travelling"],
+//    },
+//    { name: "sahir", hobbies: ["cycling", "swimming", "foos ball"] },
+//  ];
+//  var flag = false;
+//  for (var i = 0; i < users.length; i++){
+//    for (j = 0; j < users[i].hobbies.length; j++) {
+//      if (inp === users[i].hobbies[j]) {
+//        flag=true;
+//        alert(users[i].name);
+//        break;
+//    }
+//  }
+// }
+//  if (!flag) {
+//    alert("hobby not found");
+//  }
 
 
 // Loop
@@ -268,3 +268,9 @@
 //     }
 //     document.write("<br>")
 // }
+
+var word = prompt("Write a word");
+var check;
+for(var i = word.length - 1; i >= 0; i--){
+    console.log(word[i])
+}
