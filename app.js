@@ -281,11 +281,15 @@
 // }
 
 
-// upperCase and lowerCase
-var name = "mohammad rehan";
-name = name.toUpperCase();
-console.log(name)
+// // upperCase and lowerCase
+// var name = "mohammad rehan";
+// name = name.toUpperCase();
+// console.log(name)
 
-var names = "MOHAMMAD REHAN";
-names = names.toLowerCase();
-console.log(names)
+// var names = "MOHAMMAD REHAN";
+// names = names.toLowerCase();
+// console.log(names)
+
+// extrecting methord
+var Met = "mohammad rehan";
+alert(Met.indexOf("r"))
