@@ -262,6 +262,7 @@
 //     }
 // }
 
+
 // for (var i = 0; i <= 10; i++){
 //     for (var j = 0; j < i; j++){
 //         document.write("*")
@@ -269,11 +270,22 @@
 //     document.write("<br>")
 // }
 
-var word = prompt("Write a word");
-var check = "";
-for(var i = word.length - 1; i >= 0; i--){
-    check += word[i]
-}
-if(word === check){
-    alert(word + " is a palindrome word")
-}
+
+// var word = prompt("Write a word");
+// var check = "";
+// for(var i = word.length - 1; i >= 0; i--){
+//     check += word[i]
+// }
+// if(word === check){
+//     alert(word + " is a palindrome word")
+// }
+
+
+// upperCase and lowerCase
+var name = "mohammad rehan";
+name = name.toUpperCase();
+console.log(name)
+
+var names = "MOHAMMAD REHAN";
+names = names.toLowerCase();
+console.log(names)
