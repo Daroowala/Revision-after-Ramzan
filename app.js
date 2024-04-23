@@ -291,5 +291,18 @@
 // console.log(names)
 
 // extrecting methord
-var Met = "mohammad rehan";
-alert(Met.indexOf("r"))
+// var Met = "Mohammad rehan";
+// console.log(Met.indexOf("a"))
+
+// secret no game
+var secretNumber = Math.floor(Math.random() * 10) + 1;
+var guess = parseInt(prompt("Guess the secret number (between 1 to 10):"));
+if(guess === secretNumber){
+    alert("Bingo! Correct Number");
+}
+else if(guess +1 === secretNumber || guess -1 === secretNumber){
+    alert("Close enough to the correct answer");
+}
+else {
+    alert("Sorry, incorrect guess. The secret number was " + secretNumber);
+}
